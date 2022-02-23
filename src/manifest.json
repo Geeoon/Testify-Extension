@@ -1,6 +1,13 @@
 {
+    "manifest_version": 2,
+    
     "name": "Testify",
-    "description": "Prepare for tests, the easy way!",
     "version": "1.0",
-    "manifest_version": 2
+    "description": "Prepare for tests, the easy way!",
+
+    "content_scripts": [{
+        "css": ["style.css"],
+        "js": ["content.js"],
+        "matches": ["*://*/*"]
+    }]
 }
