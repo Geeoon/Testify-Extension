@@ -3,7 +3,7 @@
     
     "name": "Testify",
     "version": "1.0",
-    "description": "Prepare for tests, the easy way!",
+    "description": "Ace your tests with Testify!",
 
     "permissions": [
         "storage"
