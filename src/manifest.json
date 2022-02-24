@@ -5,6 +5,10 @@
     "version": "1.0",
     "description": "Prepare for tests, the easy way!",
 
+    "permissions": [
+        "storage"
+    ],
+
     "content_scripts": [{
         "css": ["style.css"],
         "js": ["content.js"],
@@ -14,5 +18,10 @@
 
     "web_accessible_resources": [
         "frame.html"
-    ]
+    ],
+
+    "options_ui": {
+        "page": "options.html",
+        "chrome_style": true
+    }
 }
