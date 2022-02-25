@@ -41,6 +41,14 @@ function changePosition(event) {
             wrapperDiv.style.zIndex = 9999999;
             wrapperDiv.style.opacity = maxOpacity;
         }
+    } else if (event.keyCode == 189) {
+        maxOpacity -= .01;
+        wrapperDiv.style.opacity = maxOpacity;
+        wrapperDiv.style.zIndex = 9999999;
+    } else if (event.keyCode == 187) {
+        maxOpacity += .01;
+        wrapperDiv.style.opacity = maxOpacity;
+        wrapperDiv.style.zIndex = 9999999;
     }
 }
 
