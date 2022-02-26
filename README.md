@@ -1,4 +1,4 @@
-# Testify
+# <p style="text-align: center;">Testify</p>
 *This extension allows you to overlay a website over another with a custom opacity.*
 ### Installation Instructions
 #### Google Chrome
