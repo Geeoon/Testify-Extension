@@ -14,6 +14,8 @@ To toggle the overlay, press the `\` (backslash) key.
 #### Changing the Opacity
 To increase opacity with your keyboard, use the `+` (plus) and `-` (minus) keys.
 The default opacity can also be changed in the extension's settings.
+#### Changing the position
+To change the position of the overlay, press the `F4` key.  This places the top left of the overlay at the cursor.
 #### Changing the Website
 To change the website's opacity:
 1. Go to `chrome://extensions` and find the Testify plugin.
