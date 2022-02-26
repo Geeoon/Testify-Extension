@@ -10,18 +10,18 @@
     ],
 
     "content_scripts": [{
-        "css": ["style.css"],
-        "js": ["content.js"],
+        "css": ["src/style.css"],
+        "js": ["src/content.js"],
         "matches": ["*://*/*"],
         "all_frames": true
     }],
 
     "web_accessible_resources": [
-        "frame.html"
+        "src/frame.html"
     ],
 
     "options_ui": {
-        "page": "options.html",
+        "page": "src/options.html",
         "chrome_style": true
     }
 }
