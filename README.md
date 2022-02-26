@@ -1,4 +1,5 @@
 <h1 align="center">Testify</h1>
+
 *This extension allows you to overlay a website over another with a custom opacity.*
 ### Installation Instructions
 #### Google Chrome
