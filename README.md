@@ -5,8 +5,11 @@
 #### Google Chrome
 1. Install the [iFrame Allow extension](https://chrome.google.com/webstore/detail/iframe-allow/gifgpciglhhpmeefjdmlpboipkibhbjg/).
 2. Download this repository as a [ZIP](https://github.com/Geeoon/Testify-Extension/archive/refs/heads/master.zip).
-3. Unzip the file.
-4. Go to  `chrome://extensions` and drag the `Testify-Extension-master` folder anywhere on the page (do not delete the folder afterwards). 
+3. Unzip/extract the file.
+4. Go to  `chrome://extensions`.
+5. Enable devloper settings, if you haven't already.
+6. Refresh the page.
+7. Drag the `src` folder (inside of the `Testify-Extension-master` folder you just unzipped) anywhere on the page (do not delete the folder afterwards). 
 
 ### Controls
 #### Toggling the Overlay
